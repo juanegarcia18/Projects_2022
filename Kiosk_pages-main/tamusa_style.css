@@ -1,0 +1,131 @@
+body {
+  font-family: arial, sans-serif;
+  overflow-x: hidden;
+  margin: 0px;
+  color: #080909;
+}
+
+.content:before, .hero img, .hero-content {
+  width: 100%;
+}
+
+body, .content, .hero, .article-content {
+  position: relative;
+}
+
+h2, h3, .mascots div {
+  text-align: center;
+}
+
+.content:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  opacity: 0.35;
+  background-image: url('pattern-black.png');
+  background-repeat: repeat;
+  background-position: 50% 0;
+  background-size: 40em;
+}
+
+.hero {
+  text-align: left;
+}
+
+.hero img {
+  background-image: url(cab-about.png);
+}
+
+.hero-content {
+  background-color: transparent;
+  padding-left: 25px;
+  padding-right: 0px;
+  position: absolute;
+  bottom: 4px;
+  left: 16px;
+}
+
+.page-header .title-block {
+  width: 66.16415%;
+  padding-left: 5.02513%;
+  padding-right: 5.02513%;
+}
+
+.title-block {
+  background-color: #03000085;
+  padding-bottom: 1.5rem;
+  padding-top: 1.125rem;
+}
+
+h1, h2, h3, .mascots{
+  font-family: Oswald, sans-serif;
+}
+
+h1 {
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.26923;
+  margin-top: 14px;
+  filter: contrast(20.91);
+}
+
+.article-content {
+  font-size: 16px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  padding-top: 25px;
+}
+
+.article-content > div {
+  background-color: rgba(245, 243, 243, 0.952);
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: -11px -11px 18px silver;
+  padding: 10px 5.02513% 3.75rem;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  filter: contrast(19.93);
+}
+
+h3 {
+  font-size: 18px;
+  color: #080909;
+  filter:contrast(19.93);
+}
+
+p, ul {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul {
+  margin-left: 55px;
+}
+
+.mascots {
+  display: flex;
+  margin: 1.625rem 0;
+  padding-top: 9px;
+  padding-right: 10px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+}
+
+.mascots div {
+  background-color: #e6e6e6;
+  padding: 15px;
+  width: 50%;
+}
+
+.mascots > div {
+  margin-right: 5px;
+}
